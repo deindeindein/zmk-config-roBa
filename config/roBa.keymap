@@ -68,6 +68,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        pass: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp E &kp G &kp A &kp S &kp U &kp S &kp KP_NUMBER_5 &kp KP_NUMBER_1 &kp KP_NUMBER_2>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -100,7 +107,7 @@
 &trans     &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)  &kp LG(T)                              &trans         &kp LS(LG(N4))  &trans         &trans  &trans
 &kp LG(A)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LC(DOWN)  &trans      &trans       &kp LG(W)      &mkp MB4        &mkp MB5       &trans  &trans
 &trans     &kp LG(X)     &kp LG(C)     &kp LG(V)      &trans        &trans      &bootloader  &kp LS(LG(T))  &kp LG(Z)       &kp LS(LG(Z))  &trans  &trans
-&trans     &trans        &trans        &trans         &trans        &trans      &trans       &trans                                                &trans
+&trans     &trans        &trans        &trans         &trans        &trans      &trans       &trans                                                &pass
             >;
         };
 
@@ -149,6 +156,8 @@
 &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp QUESTION
 &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
     };
 };
