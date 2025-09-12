@@ -72,7 +72,7 @@
         pass: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp E &kp G &kp A &kp S &kp U &kp S &kp KP_NUMBER_5 &kp KP_NUMBER_1 &kp KP_NUMBER_2>;
+            bindings = <&kp LS(P) &kp E &kp G &kp A &kp S &kp U &kp S &kp KP_NUMBER_5 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_ENTER>;
             label = "NEW_MACRO";
         };
     };
