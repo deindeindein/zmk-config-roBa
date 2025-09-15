@@ -36,7 +36,7 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <38 40 12 13>;
+            key-positions = <12 13>;
         };
 
         muhennkann {
@@ -104,10 +104,10 @@
 
         command {
             bindings = <
-&trans     &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)  &kp LG(T)                              &trans         &kp LS(LG(N4))  &trans         &trans  &trans
-&kp LG(A)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LC(DOWN)  &trans      &trans       &kp LG(W)      &mkp MB4        &mkp MB5       &trans  &trans
-&trans     &kp LG(X)     &kp LG(C)     &kp LG(V)      &trans        &trans      &bootloader  &kp LS(LG(T))  &kp LG(Z)       &kp LS(LG(Z))  &trans  &kp LC(LG(Q))
-&trans     &trans        &trans        &trans         &trans        &trans      &trans       &trans                                                &pass
+&trans     &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)  &kp LG(T)                              &trans            &kp LS(LG(N4))  &trans         &trans  &trans
+&kp LG(A)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LC(DOWN)  &trans      &trans       &kp LG(W)         &mkp MB4        &mkp MB5       &trans  &trans
+&trans     &kp LG(X)     &kp LG(C)     &kp LG(V)      &trans        &trans      &bootloader  &kp LS(LG(T))     &kp LG(Z)       &kp LS(LG(Z))  &trans  &kp LC(LG(Q))
+&trans     &trans        &trans        &trans         &trans        &trans      &kp TAB      &kp LC(UP_ARROW)                                         &pass
             >;
         };
 
