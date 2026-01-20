@@ -151,7 +151,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &kp LC(UP_ARROW)  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &none   &kp LC(UP_ARROW)  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION
 &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp QUESTION
 &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans                          &trans
