@@ -99,7 +99,7 @@
 &mt ESC TAB       &kp LEFT_ALT  &kp LEFT_COMMAND  &lt_to_layer_0 1 LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &kp BACKSPACE     &lt 6 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>, <&inc_dec_kp 0 0>;
         };
 
         command {
