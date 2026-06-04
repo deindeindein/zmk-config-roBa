@@ -179,10 +179,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5                      &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5
+&kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5      &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5
+&kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5      &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5
+&kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5  &kp NUMBER_5      &kp NUMBER_5  &kp NUMBER_5                          &kp NUMBER_5
             >;
         };
 
